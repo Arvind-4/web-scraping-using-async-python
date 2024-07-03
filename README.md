@@ -11,23 +11,20 @@ This is Only for Educational Purpose.
 ### Run it on Your Local Machine
 
 
-
 #### 1. Create Virtual Environment & Install the Requirements
 
 ```
-cd /path/to/folder
+cd ~/Dev
 mkdir web_scrape
 cd web_scrape
-python -m venv venv
-source venv/scripts/activate
+python3.10 -m virtualenv .
+source bin/activate
 ```
 
 #### 2. Create A Folder & Run the Code!
 ```
-cd /path/to/folder
-mkdir src
-cd src 
-git clone https://github.com/Arvind-4/Web-Scraping-Using-Async-Python.git .
+cd ~/Dev/web_scrape
+git clone https://github.com/Arvind-4/web-scraping-using-async-python.git .
 pip install -r requirements.txt
-python main.py
+python src/main.py
 ```
